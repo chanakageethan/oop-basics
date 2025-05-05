@@ -4,6 +4,7 @@
 import abstraction.Bike;
 import abstraction.Car;
 import encapsulation.BankAccount;
+import inheritance.Dog;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +27,12 @@ public class Main {
         bike.move();
         //----------------------------------------------------------------------------
 
-
+        //----------------------------------------------------------------------------
+        //Inheritance
+        Dog myDog = new Dog();
+        myDog.eat();  // Inherited method from Animal
+        myDog.bark(); // Method in Dog
+        //----------------------------------------------------------------------------
 
     }
 }
