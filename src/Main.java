@@ -1,11 +1,8 @@
 
 
 
-//abstraction
-//inheritance
-//polymorphism
-
-
+import abstraction.Bike;
+import abstraction.Car;
 import encapsulation.BankAccount;
 
 public class Main {
@@ -21,6 +18,13 @@ public class Main {
         System.out.println(bankAccount.getBalance());
         //----------------------------------------------------------------------------
 
+        //----------------------------------------------------------------------------
+        //abstraction
+        Car car = new Car();
+        Bike bike = new Bike();
+        car.move();
+        bike.move();
+        //----------------------------------------------------------------------------
 
 
 

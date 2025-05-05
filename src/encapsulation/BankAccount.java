@@ -12,7 +12,10 @@ single unit, called a class.
 
 
 public class BankAccount {
-    private double balance;  // Encapsulated data
+    // balance is encapsulated and protected from direct access
+    //it can only be modified through the deposit and withdraw methods, ensuring data integrity.
+    private double balance;
+
 
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
